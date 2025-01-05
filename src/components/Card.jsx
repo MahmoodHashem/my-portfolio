@@ -1,3 +1,4 @@
+import SpotlightCard from "./SpotlightCard";
 
 const GradientLine = () => (
   <div className="flex flex-row">
@@ -65,13 +66,18 @@ const Card = ({ title, data, statusColors, className }) => {
   return (
     <div className={`m-auto max-w-2xl lg:order-2 from-[#0d1224] border-[#1b2c68a0] relative rounded-lg border-2 bg-gradient-to-r to-[#0a0d37] ${className}`}>
       <GradientLine />
+
+      <SpotlightCard bgColor="bg-gradient-to-r from-[#0d1224] to-[#0a0d37] " spotlightColor="rgba(255, 255, 255, 0.25)">
       <div className="flex  flex-row-reverse items-center justify-center px-4 lg:px-8 py-5">
         {title && <h2 className="text-xl mr-auto text-white">{title}</h2>}
         <StatusIndicators colors={statusColors} />
       </div>
-      <div className="overflow-hidden border-t-[2px] border-indigo-900 px-4 lg:px-8 py-4 lg:py-8">
-        <CodeBlock data={data} />
-      </div>
+      
+        <div className="overflow-hidden border-t-[2px] border-indigo-900 px-4 lg:px-8 py-4 lg:py-8">
+          <CodeBlock data={data} />
+        </div>
+      </SpotlightCard>
+
     </div>
   );
 };
