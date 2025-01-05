@@ -124,7 +124,7 @@ function HeroSection() {
           initial={{ x: 100, opacity: 0 }}
           animate={{ x: 0, opacity: 1 }}
           transition={{ duration: 0.8, delay: 0.2 }}
-          className="order-1 lg:order-2"
+          className="order-1 lg:order-2 mt-10"
         >
           <HeaderCard />
         </motion.div>
