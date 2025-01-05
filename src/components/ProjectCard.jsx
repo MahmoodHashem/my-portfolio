@@ -15,7 +15,7 @@ const ProjectCard = ({ project }) => {
     <Card
       title={project.name}
       data={projectData}
-      className="w-full"
+      className="w-[300px] md:w-[500px]"
     />
   );
 };

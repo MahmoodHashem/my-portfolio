@@ -1,5 +1,6 @@
 import { projectsData } from '../data/projects-data';
 import ProjectCard from './ProjectCard';
+import ProjectStack from './ProjectStack';
 
 const Projects = () => {
 
@@ -15,21 +16,8 @@ const Projects = () => {
                 </div>
             </div>
 
-            <div className="pt-24 sticky top-0 flex flex-col gap-6 ">
-
-                {projectsData.slice(0, 4).map((project, index) => (
-                    <div
-                        id={`sticky-card-${index + 1}`}
-                        key={index}
-                        className={`sticky 
-                ${project.id === 1 ? 'top-0' : project.id === 2 ? 'top-20' : project.id === 3 ? 'top-40' : 'top-60'
-                            }`}
-                    >
-
-                        <ProjectCard project={project} />
-                    </div>
-                ))}
-            </div>
+            <ProjectStack />
+            
         </section>
     );
 };

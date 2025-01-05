@@ -46,17 +46,17 @@ function Navbar() {
       <div className=" mx-auto w-full">
         <div className="flex items-center justify-between">
           {/* Logo */}
-          <a href="/" className="text-[#16f2b3] text-3xl uppercase font-bold">
+          <a href="/" className="font-logo text-[#16f2b3] text-3xl uppercase font-bold">
             Mahmood
           </a>
 
           {/* Desktop Menu */}
-          <div className="hidden md:flex space-x-8">
+          <div className="hidden font-heading  md:flex space-x-8">
             {['about', 'experience', 'skills', 'education', 'blog', 'projects'].map((item) => (
               <a
                 key={item}
                 href={`/#${item}`}
-                className="text-sm text-white hover:text-pink-600 transition-colors duration-300 capitalize"
+                className="text-lg text-white hover:text-pink-600 transition-colors duration-300 capitalize"
               >
                 {item}
               </a>

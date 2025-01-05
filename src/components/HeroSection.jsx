@@ -48,7 +48,7 @@ function HeroSection() {
         className="absolute -top-[98px] z-0"
       />
 
-      <div className="grid grid-cols-1 items-start lg:grid-cols-2 lg:gap-12 gap-y-8">
+      <div className="grid grid-cols-1 items-start lg:grid-cols-2 lg:gap-12 gap-y-8 mt-12">
         <motion.div 
           variants={staggerContainer}
           className="order-2 lg:order-1 flex flex-col items-start justify-center p-2 pb-20 md:pb-10 lg:pt-10 relative"
@@ -124,7 +124,7 @@ function HeroSection() {
           initial={{ x: 100, opacity: 0 }}
           animate={{ x: 0, opacity: 1 }}
           transition={{ duration: 0.8, delay: 0.2 }}
-          className="order-1 lg:order-2 mt-10"
+          className="order-1 lg:order-2 "
         >
           <HeaderCard />
         </motion.div>

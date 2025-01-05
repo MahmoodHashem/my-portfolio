@@ -19,6 +19,9 @@ import Navbar from "./components/Navbar"
 import HeroSection from "./components/HeroSection"
 import Projects from "./components/Projects"
 import Experience from "./components/Experience"
+import Education from "./components/Education"
+import Stack from "./components/Stack"
+import ProjectStack from "./components/ProjectStack"
 
 function App() {
 
@@ -34,7 +37,9 @@ function App() {
           <About />
           <Experience />
           <Projects />
+          
           <Skills />
+          <Education />
           <ContactSection />
     
       </main>
