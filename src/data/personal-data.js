@@ -2,16 +2,14 @@ export const personalData = {
   name: "Mahmood Hashemi",
   profile: '/profile.png',
   designation: "Software Developer",
-  description: "My name is Mahmood Hashemi. I am a professional and enthusiastic programmer in my daily life. I am a quick learner with a self-learning attitude. I love to learn and explore new technologies and am passionate about problem-solving. I love almost all the stacks of web application development and love to make the web more open to the world. My core skill is based on JavaScript and I love to do most of the things using JavaScript. I am available for any kind of job opportunity that suits my skills and interests.",
+  description: "My name is Mahmood Hashemi, a passionate web developer specializing in React and TailwindCSS. I enjoy building responsive, visually appealing, and functional web applications. With a strong foundation in JavaScript, I love leveraging modern tools and technologies to craft exceptional user experiences.I am a quick learner with a self-driven attitude, always eager to explore and grow in the web development field. I’m open to job opportunities that align with my skills and passion for creating impactful web solutions.",
   email: 'shmahmoodham143@gmail.com',
   phone: '+93729034586',
   address: 'Herat, Afghanistan',
   github: 'https://github.com/MahmoodHashem',
   facebook: 'https://www.facebook.com/mahmood.hashemi.9',
-  linkedIn: 'https://www.linkedin.com/',
-  twitter: 'https://twitter.com/said7388',
-  stackOverflow: 'https://stackoverflow.com/users/16840768/abu-said',
-  leetcode: "https://leetcode.com/said3812/",
+  linkedIn: 'https://www.linkedin.com/in/shah-mahmood-hashemi-55172a276/',
+  twitter: 'https://twitter.com/Mahmood18999963',
   devUsername: "mahmoodhashem",
-  resume: "https://drive.google.com/file/d/1eyutpKFFhJ9X-qpQGKhUNnVRkB5Wer00/view?usp=sharing"
+  resume: "https://drive.google.com/file/d/1_Nz_wcCepFO44ZksbA1CjFWONZLvmmVu/view?usp=drive_link"
 }

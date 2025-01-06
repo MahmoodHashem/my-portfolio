@@ -101,7 +101,7 @@ function ContactSection() {
           >
             {[
               { Icon: FaGithub, link: personalData.github },
-              { Icon: FaLinkedin, link: personalData.linkedin },
+              { Icon: FaLinkedin, link: personalData.linkedIn },
               { Icon: BsTwitterX, link: personalData.twitter }
             ].map((social, index) => (
               <motion.a

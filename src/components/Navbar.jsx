@@ -52,7 +52,7 @@ function Navbar() {
 
           {/* Desktop Menu */}
           <div className="hidden font-heading  md:flex space-x-8">
-            {['about', 'experience', 'skills', 'education', 'blog', 'projects'].map((item) => (
+            {['about', 'experience', 'skills', 'education', 'projects'].map((item) => (
               <a
                 key={item}
                 href={`/#${item}`}
@@ -126,7 +126,7 @@ function Navbar() {
             style={{ position: 'fixed', height: 'calc(100vh - 72px)' }}
           >
             <div className="flex flex-col items-center justify-center min-h-full space-y-8 py-8">
-              {['about', 'experience', 'skills', 'education', 'blog', 'projects'].map((item) => (
+              {['about', 'experience', 'skills', 'education', 'projects'].map((item) => (
                 <motion.a
                   key={item}
                   variants={itemVariants}

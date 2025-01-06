@@ -6,7 +6,6 @@ const ProjectCard = ({ project }) => {
     properties: {
       name: project.name,
       tools: project.tools,
-      myRole: project.role,
       description: project.description
     }
   };
