@@ -74,7 +74,7 @@ function HeroSection() {
           >
             {[
               { icon: FaGithub, link: personalData.github },
-              { icon: FaLinkedin, link: personalData.linkedin },
+              { icon: FaLinkedin, link: personalData.linkedIn },
               { icon: BsTwitterX, link: personalData.twitter }
             ].map((social, index) => (
               <motion.a

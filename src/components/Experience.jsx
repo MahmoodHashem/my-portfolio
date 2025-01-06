@@ -5,6 +5,7 @@ import { experiences } from "../data/experience"
 import AnimationLottie from "./AnimationLottie"
 import experienceLottie from '../assets/lottie/code.json'
 import GlowCard from "./GlowCard"
+import { BsPersonWorkspace } from "react-icons/bs";
 
 function Experience() {
   const ref = useRef(null)
@@ -124,7 +125,9 @@ function Experience() {
                     </div>
                     <div className="flex items-center gap-x-8 px-3 py-5">
                       <div className="text-violet-500 transition-all duration-300 hover:scale-125">
-                        <div>He</div>
+                        <div>
+                          <BsPersonWorkspace size={48} />
+                        </div>
                       </div>
                       <div>
                         <p className="text-base sm:text-xl mb-2 font-medium uppercase">
