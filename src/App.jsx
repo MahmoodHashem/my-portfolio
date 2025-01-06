@@ -22,6 +22,7 @@ import Experience from "./components/Experience"
 import Education from "./components/Education"
 import Stack from "./components/Stack"
 import ProjectStack from "./components/ProjectStack"
+import ScrollToTop from "./components/ScrollToTop"
 
 function App() {
 
@@ -34,10 +35,10 @@ function App() {
       </header>
 
       <main className=" mx-5">
+        <ScrollToTop />
           <About />
           <Experience />
           <Projects />
-          
           <Skills />
           <Education />
           <ContactSection />
